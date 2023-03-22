@@ -1,0 +1,187 @@
+h5,
+ul,
+p,
+button {
+  text-align: center;
+  font-family: "Lobster", cursive;
+  color: #99267c;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Lobster", cursive;
+  font-weight: 900;
+  margin: 35px auto;
+  line-height: 0px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  color: #99267c;
+  line-height: 1.5;
+  font-weight: 100;
+}
+h4 {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+  color: #99267c;
+  line-height: 1.5;
+  font-weight: 100;
+}
+a {
+  font-size: 50px;
+  font-weight: 100;
+  font-family: "Lobster", cursive;
+  color: #99267c;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+img {
+  max-width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+footer {
+  text-align: center;
+  margin: -10px auto -40px;
+}
+.float-left {
+  color: #99267c;
+}
+.units {
+  font-size: 30px;
+  color: #99267c;
+  line-height: 2;
+  position: relative;
+  top: -148px;
+  right: -105%;
+}
+#celsius-link,
+#fahrenheit-link {
+  font-size: 20px;
+}
+.container {
+  display: block;
+  border-radius: 15px;
+  max-width: 1200px;
+  margin: 30px auto 50px auto;
+  border: 2px solid #5e5e5e;
+  color: #521537;
+  line-height: 15px;
+  padding: 40px 30px 60px;
+  border-color: #1b0511;
+  box-shadow: 5px auto rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to top, #b0a0b9 0%, #f58ad1 100%);
+}
+
+.btn {
+  display: inline;
+  margin: auto 40px;
+  border: 1px solid #16a752;
+  background: #16a752;
+  color: #fff;
+  font-size: 20px;
+  line-height: 5px;
+  padding: 18px 20px;
+  border-radius: 15px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #fff;
+  color: #0c0c0c;
+  border: 1px solid #16a752;
+}
+.btn-secondary {
+  display: inline;
+  position: relative;
+  top: -100%;
+  right: -260%;
+  margin: auto 40px;
+  border: 1px solid #4d85ec;
+  background: #4d85ec;
+  color: #fff;
+  font-size: 20px;
+
+  line-height: 5px;
+  padding: 18px 20px;
+  border-radius: 15px;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background: #fff;
+  color: #0c0c0c;
+  border: 1px solid #4d85ec;
+}
+.temp {
+  position: relative;
+  top: -30px;
+  left: 350px;
+}
+.image {
+  position: relative;
+  top: -5%;
+  right: 20px;
+}
+.temperature {
+  font-size: 80px;
+  position: relative;
+  right: -65%;
+  top: -75px;
+  font-weight: 600;
+  font-family: "Lobster", cursive;
+  color: #99267c;
+  margin-bottom: -3%;
+}
+.col {
+  padding-top: 0;
+}
+.col-5 {
+  padding-bottom: 0;
+}
+.weather-forecast {
+  text-align: center;
+  border-radius: 15px;
+  padding: 16px 24px;
+}
+#weekdays-forecast {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0px;
+  justify-content: space-around;
+}
+.weekdays-blocks {
+  text-align: center;
+  padding: 0px;
+}
+.weekday-blocks:hover {
+  background-color: rgba(116, 11, 84, 0.2);
+  border-radius: 10px;
+}
+.forecast-date {
+  opacity: 0.95;
+}
+
+.link {
+  font-size: 20px;
+}
+.active {
+  color: #521537;
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
+}
+#description {
+  text-transform: capitalize;
+}
