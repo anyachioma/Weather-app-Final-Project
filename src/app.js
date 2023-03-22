@@ -142,7 +142,6 @@ function searchCurrentCity(city) {
   axios.get(apiUrl).then(showWeather);
 }
 
-
 function currentCity(position) {
   console.log(position);
   let latitude = position.coords.latitude;
@@ -158,7 +157,6 @@ function getPosition(event) {
 }
 
 let currentLocation = document.querySelector("#current-city");
-
 
 currentLocation.addEventListener("click", getPosition);
 
