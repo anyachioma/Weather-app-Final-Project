@@ -132,7 +132,7 @@ function showWeather(response) {
   celsiusTemperature = response.data.temperature.current;
   currentDate.innerHTML = formatDate(response.data.time * 1000);
 
-  getForecast(response.data.coord);
+  getForecast(response.data.coordinates);
 }
 
 function searchCurrentCity(city) {
