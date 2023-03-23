@@ -62,15 +62,12 @@ footer {
 }
 .units {
   font-size: 35px;
+  font-family: "Lobster", cursive;
   color: #99267c;
   line-height: 2;
   position: relative;
-  top: -148px;
-  right: -105%;
-}
-#celsius-link,
-#fahrenheit-link {
-  font-size: 20px;
+  top: -125px;
+  right: -65%;
 }
 .container {
   display: block;
