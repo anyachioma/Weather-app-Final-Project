@@ -1,6 +1,6 @@
 function formatDate(timestamp) {
   let date = new Date(timestamp);
-  let now = date.getDate()
+  let now = date.getDate();
   let days = [
     "Sunday",
     "Monday",
@@ -10,7 +10,7 @@ function formatDate(timestamp) {
     "Friday",
     "Saturday",
   ];
-  
+
   let day = days[date.getDay()];
   let hours = date.getHours();
   if (hours < 10) {
@@ -118,6 +118,9 @@ function showWeather(response) {
     response.data.condition.description;
   document.querySelector(".temperature").innerHTML = Math.round(
     response.data.temperature.current
+  );
+  document.querySelector("#atmosphere").innerHTML = Math.round(
+    response.data.temperature.feels_like
   );
   document.querySelector("#humidity").innerHTML =
     response.data.temperature.humidity;
