@@ -178,7 +178,6 @@ footer {
 .forecast-date {
   opacity: 0.95;
 }
-
 .link {
   font-size: 20px;
 }
@@ -189,6 +188,6 @@ footer {
 .active:hover {
   text-decoration: none;
 }
-#description {
+#description::first-letter {
   text-transform: capitalize;
 }
