@@ -1,6 +1,6 @@
 function formatDate(timestamp) {
   let date = new Date(timestamp);
-
+  let now = date.getDate()
   let days = [
     "Sunday",
     "Monday",
@@ -10,7 +10,7 @@ function formatDate(timestamp) {
     "Friday",
     "Saturday",
   ];
-  //work on time, it does not change
+  
   let day = days[date.getDay()];
   let hours = date.getHours();
   if (hours < 10) {
@@ -20,7 +20,7 @@ function formatDate(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
-  return `${day} ${hours}:${minutes}`;
+  return `Last updated: ${day} ${now}, ${hours}:${minutes}`;
 }
 
 function formatDay(timestamp) {
